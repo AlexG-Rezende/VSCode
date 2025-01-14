@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Can't Be Reached</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+      color: #555;
+      text-align: center;
+    }
+
+    .container {
+      background: white;
+      padding: 20px 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .icon {
+      font-size: 80px;
+      color: #ccc;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 10px 0;
+      color: #777;
+    }
+
+    .try {
+      margin: 20px 0;
+      text-align: left;
+    }
+
+    .try a {
+      color: #1a73e8;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .try a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #4285f4;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background: #3367d6;
+    }
+
+    .details {
+      font-size: 12px;
+      color: #777;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="error">
+      <img src="er.png" alt="error">
+    </div>
+    <h1>This site can’t be reached</h1>
+    <p>www.brubells.com refused to connect.</p>
+    <div class="try">
+      <p>Try:</p>
+      <ul>
+        <li><a href="#">Checking the connection</a></li>
+        <li><a href="#">Checking proxy and firewall</a></li>
+      </ul>
+    </div>
+    <p>ERR_CONNECTION_REFUSED</p>
+    <a href="/home-desk/home.html" class="button">BACK TO PAGE</a>
+    <div class="details">DETAILS</div>
+  </div>
+</body>
+</html>

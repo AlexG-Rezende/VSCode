@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 6px; /* Altura da navbar */
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    height: 85px;
+    background: linear-gradient(90deg, #80FEC5 0%, #0CFCCC 27.51%, #059CDD 62.51%, #0121C3 100%);
+    opacity: 0.85;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+}
+        
+.logo img {
+    width: 173px;
+    height: 73px;
+}
+        
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    letter-spacing: 2px;
+}
+        
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    transition: color 0.3s ease;
+}
+        
+.nav-links li a:hover {
+    color: #ffae00;
+}
+  
+/* Título */
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    margin-top: 100px;
+}
+  
+/* Banner */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+  
+/* Conteúdo */
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+  
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    color: white;
+}
+  
+.brubells {
+    background-color: #539DFD;
+}
+  
+.historia {
+    background-color: #53B9EC;
+}
+  
+/* Valores */
+.values {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #e6f7ff;
+}
+  
+.value-box {
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+}
+  
+.missao, .valores {
+    background-color: #539DFD;
+    color: white;
+}
+  
+.visao {
+    background-color: #53B9EC;
+    color: white;
+}
+  
+.value-box img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+  
+/* Avaliações */
+.reviews {
+    text-align: center;
+    padding: 15px;
+}
+  
+.review-box {
+    background: #f1f1f1;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.review-box2 {
+    background: #f1f1f1;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.review-box3 {
+    background: #f1f1f1;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.reviews .btn {
+    background: #013668;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+  
+/* Rodapé */
+.footer {
+    bottom: 0;
+    width: 100%;
+    background: #013668;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
